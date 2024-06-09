@@ -1,4 +1,4 @@
-#! /user/bin/node
+#! /user/bin/env node
 import inquirer from "inquirer";
 //printing a Welcome Message
 console.log("\n \tWellcom To \`CodeWithRiffat\` -CLI Simple Calculator\n");
