@@ -1,7 +1,7 @@
-#! /user/bin/env node
+#!/user/bin/env node
 import inquirer from "inquirer";
 //printing a Welcome Message
-console.log("\n \tWellcom To \`CodeWithRiffat\` -CLI Simple Calculator\n");
+console.log("\n \tWellcom To \`CodeWithRiffat\` Simple-Calculator\n");
 //Asking Question from User through Inquirer
 let answer = await inquirer.prompt([
     { message: " Enter First Number", type: "number", name: "firstNumber" },
